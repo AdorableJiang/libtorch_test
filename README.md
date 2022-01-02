@@ -15,13 +15,13 @@ You can use this program by first clone this repo and
     cd <root-of-LibTorch_test>
     mkdir -p build && cd build
 
-<details>
+<details open>
   <summary>If you build LibTorch from source, <code>cmake</code> will take care of the rest.</summary>
 
     cmake ..
 </details>
 
-<details>
+<details open>
   <summary>Or, if you use LibTorch ZIP archive, please specify the absolute (!) path to the unzipped LibTorch distribution.</summary>
 
     cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch/share/cmake ..
