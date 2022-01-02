@@ -1,6 +1,6 @@
 # LibTorch_test
 
-Use this program to varify your LibTorch deployment. It is highly recommended using it on a [CUDA-capable](https://developer.nvidia.com/cuda-zone) system.
+This program is designed for verification of your LibTorch deployment. It is highly recommended using it on a [CUDA-capable](https://developer.nvidia.com/cuda-zone) system.
 
 After you have installed LibTorch by either
 
@@ -8,9 +8,11 @@ After you have installed LibTorch by either
 
 or
 
-* following the instruction of [INSTALLING C++ DISTRIBUTIONS OF PYTORCH](https://pytorch.org/cppdocs/installing.html) to download a LibTorch ZIP archive.
+* following the instruction of [INSTALLING C++ DISTRIBUTIONS OF PYTORCH](https://pytorch.org/cppdocs/installing.html) to download a LibTorch ZIP archive,
 
-You can use this program by first clone this repo and
+you can use this program to verify your LibTorch installation.
+
+Clone this repo and
 
     cd <root-of-LibTorch_test>
     mkdir -p build && cd build
