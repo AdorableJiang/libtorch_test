@@ -4,17 +4,31 @@ Use this program to varify your LibTorch deployment. It is highly recommended us
 
 After you have installed LibTorch by either
 
-* following the instruction of [INSTALLING C++ DISTRIBUTIONS OF PYTORCH](https://pytorch.org/cppdocs/installing.html)
+* [building from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst#libtorch-c-only),
 
 or
 
-* [building from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst#libtorch-c-only).
+* following the instruction of [INSTALLING C++ DISTRIBUTIONS OF PYTORCH](https://pytorch.org/cppdocs/installing.html) to download a LibTorch ZIP archive.
 
 You can use this program by first clone this repo and
 
     cd <root-of-LibTorch_test>
     mkdir -p build && cd build
+
+<details>
+  <summary>If you build LibTorch from source, <code>cmake</code> will take care of the rest.</summary>
+
     cmake ..
+</details>
+
+<details>
+  <summary>Or, if you use LibTorch ZIP archive, please specify the absolute (!) path to the unzipped LibTorch distribution.</summary>
+
+    cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch/share/cmake ..
+</details>
+
+Then `make`
+
     make -j$(nproc)
 
 Now you can run it
