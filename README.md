@@ -1,6 +1,6 @@
 # LibTorch_test
 
-Use this program to varify your libtorch deployment. You should use it on a [CUDA-capable](https://developer.nvidia.com/cuda-zone) system.
+Use this program to varify your LibTorch deployment. It is highly recommended using it on a [CUDA-capable](https://developer.nvidia.com/cuda-zone) system.
 
 After you have installed LibTorch by either of
 
