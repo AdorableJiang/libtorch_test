@@ -10,5 +10,8 @@ int main() {
     cout << torch::cuda::is_available() << endl;
     cout << torch::cuda::cudnn_is_available() << endl;
     cout << torch::cuda::device_count() << endl;
+    cout << "PyTorch version: "<< TORCH_VERSION_MAJOR<<"."
+    <<TORCH_VERSION_MINOR<<"."
+    <<TORCH_VERSION_PATCH<<endl;
     return 0;
 }
