@@ -37,7 +37,7 @@ Now you can run it
 
     ./libtorch_test
 
-If everything goes well, you should see out put like
+If everything goes well, you should see output like
 
     LibTorch version: 1.11.0
 
