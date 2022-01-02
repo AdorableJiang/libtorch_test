@@ -13,7 +13,7 @@ you can use this program by first clone this repo and
     cd <root-of-LibTorch_test>
     mkdir -p build && cd build
     cmake ..
-    make -j$(($(nproc) + 1))
+    make -j$(nproc)
 
 Now you can run it
 
