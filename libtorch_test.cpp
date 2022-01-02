@@ -41,6 +41,7 @@ int main() {
     }
     else{
         cout << "False" << endl;
-    }  
+        cout << "This is a CPU-only device." << endl;
+    }
     return 0;
 }
