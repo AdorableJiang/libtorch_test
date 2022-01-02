@@ -8,15 +8,11 @@ After you have installed LibTorch by either of
 
 2. [building from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst#libtorch-c-only)
 
-3. installing PyTorch via conda or pip
-
 you can use this program by first clone this repo and
 
     cd <root-of-LibTorch_test>
     mkdir -p build && cd build
     cmake ..
-    # For those who install PyTorch via conda or pip, replace above line to
-    cmake -DCMAKE_PREFIX_PATH=`python -c 'import torch;print(torch.utils.cmake_prefix_path)'` ..
     make -j$(($(nproc) + 1))
 
 Now you can run it
