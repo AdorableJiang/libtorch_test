@@ -2,13 +2,15 @@
 
 Use this program to varify your LibTorch deployment. It is highly recommended using it on a [CUDA-capable](https://developer.nvidia.com/cuda-zone) system.
 
-After you have installed LibTorch by either of
+After you have installed LibTorch by either
 
-1. following the instruction of [INSTALLING C++ DISTRIBUTIONS OF PYTORCH](https://pytorch.org/cppdocs/installing.html)
+* following the instruction of [INSTALLING C++ DISTRIBUTIONS OF PYTORCH](https://pytorch.org/cppdocs/installing.html)
 
-2. [building from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst#libtorch-c-only)
+or
 
-you can use this program by first clone this repo and
+* [building from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst#libtorch-c-only).
+
+You can use this program by first clone this repo and
 
     cd <root-of-LibTorch_test>
     mkdir -p build && cd build
