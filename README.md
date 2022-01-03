@@ -60,7 +60,7 @@ If everything goes well, you should see output like
     0.0522  0.9954  0.8502
     [ CUDAFloatType{2,3} ]
 
-For CPU-only devices
+<!-- For CPU-only devices
 
     LibTorch version: 1.10.1
 
@@ -70,4 +70,4 @@ For CPU-only devices
     [ CPUFloatType{2,3} ]
 
     CUDA availability:False
-    This is a CPU-only device.
+    This is a CPU-only device. -->
